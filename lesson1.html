@@ -94,13 +94,24 @@
                 margin-right: 0;
                 margin-left: auto;
             }
-            video {
-                max-width: 90%; 
-                display: block;  
-                margin: 20px auto; 
-                border-radius: 8px; 
-                box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-            }
+    .video-link-button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 15px 0;
+    background-color: #e04434;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+   .video-link-button:hover {
+    background-color: #ff0000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
             .back-button{
                 padding: 8px 15px;
                 background-color: green; 
@@ -188,10 +199,12 @@
                 <p>يقصد بها تنمية الموارد بحيث تلبّي احتياجات الأجيال الحالية دون ظهور للموارد بما يؤثر على حقوق الأجيال القادمة.
 وترتبط بمعالجة التوازن بين الجوانب الاقتصادية والاجتماعية والبيئية في الحاضر والمستقبل.</p>
             </ol>
-           <video controls style="width: 100%; max-width: 600px;">
-    <source src="video.mp4" type="video/mp4">
-    المتصفح الخاص بك لا يدعم تشغيل الفيديو.
-           </video>
+    <a 
+        href="https://youtu.be/kriejf_OYDU" 
+        target="_blank" 
+        class="video-link-button">
+        شاهد فيديو شرح الدرس الأول
+    </a>
             
             <br><br><br>
             
@@ -246,6 +259,7 @@
             </div>
         
     
+
 
 
 
